@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Text editor</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>25</y>
+      <width>600</width>
+      <height>550</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="insert_one_string">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>25</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insert one string</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Insert_several_strings">
+    <property name="geometry">
+     <rect>
+      <x>825</x>
+      <y>25</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insert several strings</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_delete_string">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>100</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete string</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_insert_substring">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>175</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insert substring</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_change_character">
+    <property name="geometry">
+     <rect>
+      <x>825</x>
+      <y>175</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Change character</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_contextual_replace">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>250</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сontextual replacement</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_delete_zero">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>325</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete leading zeros</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_increasing_numerals">
+    <property name="geometry">
+     <rect>
+      <x>825</x>
+      <y>325</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Non-increasing numerals</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_delete_between_brackets">
+    <property name="geometry">
+     <rect>
+      <x>825</x>
+      <y>400</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>delete between brackets</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_star_to_plus">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>400</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>* -&gt; +</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
