@@ -1,2 +1,0 @@
-# Equation-graphs
-#TODO
