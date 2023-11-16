@@ -1,0 +1,1 @@
+***This project contains a text editor interface written using the QT library***
